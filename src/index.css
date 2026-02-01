@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+html {
+  scroll-behavior: smooth;
+}
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
@@ -13,7 +15,7 @@
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse subtle 4s ease-in-out infinite;
-  --animate-fade-in: fae-in 0.7s ease-out forwards;
+  --animate-fade-in: fade-in 0.7s ease-out forwards;
   --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
   --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
   --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
@@ -96,7 +98,12 @@
   }
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+  a {
+    cursor: pointer;
   }
 }
 
