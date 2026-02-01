@@ -42,10 +42,12 @@ export const ABoutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Frontend Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    loreum ipsum loreum ipsum loreum ipsum loreum ipsum loreum
-                    ipsum loreum ipsum loreum ipsum loreum ipsum
+                    Building responsive, accessible interfaces with React and
+                    modern UI patterns, focused on smooth UX and performance.
                   </p>
                 </div>
               </div>
@@ -56,10 +58,10 @@ export const ABoutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web development</h4>
+                  <h4 className="font-semibold text-lg">Backend & APIs</h4>
                   <p className="text-muted-foreground">
-                    loreum ipsum loreum ipsum loreum ipsum loreum ipsum loreum
-                    ipsum loreum ipsum loreum ipsum loreum ipsum
+                    Creating secure REST APIs, handling authentication (JWT),
+                    and integrating databases like SQL Server for real apps.
                   </p>
                 </div>
               </div>
@@ -70,10 +72,12 @@ export const ABoutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Clean & Secure Systems
+                  </h4>
                   <p className="text-muted-foreground">
-                    loreum ipsum loreum ipsum loreum ipsum loreum ipsum loreum
-                    ipsum loreum ipsum loreum ipsum loreum ipsum
+                    Writing maintainable code, improving performance, and
+                    applying best practices for security and scalability.
                   </p>
                 </div>
               </div>
