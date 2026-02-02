@@ -11,6 +11,8 @@ export default function ContactSection() {
     setLoading(true);
 
     try {
+      console.log("SERVICE", import.meta.env.VITE_EMAILJS_SERVICE_ID);
+
       await emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
